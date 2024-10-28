@@ -5,7 +5,7 @@ requires = [ "hatchling" ]
 
 [project]
 name = "nonebot-plugin-tarina-lang-turbo"
-version = "0.1.0"
+version = "0.1.1"
 description = "Enhance tarina.lang to support user-level configuration"
 readme = "README.md"
 license = { text = "MIT" }
