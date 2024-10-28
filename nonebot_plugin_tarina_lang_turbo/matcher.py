@@ -27,9 +27,10 @@ async def _() -> None:
     for k, v in configs.items():
         if k == '$root':
             continue
-        msg += f'{k}:\n'
+        msg += f'- {k}\n'
         for i in sorted(v.locales):
-            msg += f'  - {i}\n'
+            msg += f'  > {i}\n'
+        msg += '\n'
     await UniMessage(msg.strip()).finish()
 
 
